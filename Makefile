@@ -4,9 +4,9 @@
 all: server
 
 server: 
-	gcc -std=gnu99 -o server server.c
+	gcc -std=gnu99 -o simple_proxy server.c
 
 clean:
-	rm server
+	rm simple_proxy
 
 again: clean all
